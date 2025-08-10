@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <div class="fixed-background"></div>
     <header class="header">
       <div class="logo-group">
         <h1 class="logo__title">&lt;/html&gt;</h1>
@@ -33,14 +32,15 @@
     </header>
     <main class="cards">
       <article class="card">
-        <h3 class="card__title">
+        <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-vintage"
+            class="card__image"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -53,7 +53,7 @@
           <p>Место для ваших воспоминаний о начале обучения.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               width="39"
@@ -86,18 +86,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">1 спринт: Я — чистый лист</h3>
+        <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-cold"
+            class="card__image filter-sepia"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -112,7 +113,7 @@
           <p>Место для ваших воспоминаний о начале первого спринта.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -145,18 +146,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">1 спринт: А если не получится?</h3>
+        <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-warm"
+            class="card__image filter-brightness"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -169,7 +171,7 @@
           <p>Место для ваших воспоминаний об окончании первого спринта.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -202,18 +204,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">2 спринт: Погоня за идеалом</h3>
+        <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-dramatic"
+            class="card__image filter-contrast"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -228,7 +231,7 @@
           <p>Место для ваших воспоминаний о начале второго спринта.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -261,18 +264,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">2 спринт: О тех, кто рядом</h3>
+        <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-ghost"
+            class="card__image filter-saturate"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -288,7 +292,7 @@
           <p>Место для ваших воспоминаний об окончании второго спринта.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -321,18 +325,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">3 спринт: Обходные стратегии</h3>
+        <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-neon"
+            class="card__image filter-blur"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -345,7 +350,7 @@
           <p>Место для ваших воспоминаний о начале третьего спринта.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -378,18 +383,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">3 спринт: Когда опускаются руки</h3>
+        <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-dark-fantasy"
+            class="card__image filter-hue-rotate"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -404,7 +410,7 @@
           <p>Место для ваших воспоминаний об окончании третьего спринта.</p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -437,18 +443,19 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </article>
       <article class="card">
-        <h3 class="card__title">«Сейчас я здесь»</h3>
+        <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="card__image-container">
           <img
             src="./images/freetrack.png"
             alt="Домик на колесах"
-            class="card__image filter-mono-blue"
+            class="card__image filter-grayscale"
+            loading="lazy"
           />
           <span class="image-label">&lt;/html&gt;</span>
         </div>
@@ -467,7 +474,7 @@
           </p>
         </div>
         <div class="card__buttons">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button" aria-hidden="true">
             <svg
               class="like-icon"
               width="39"
@@ -500,7 +507,7 @@
               />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="button card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -509,7 +516,7 @@
         type="button"
         onclick="window['save-dialog'].showModal();"
         aria-controls="save-dialog"
-        class="save__button"
+        class="button save__button"
       >
         <svg class="diskette" width="22px" height="21px">
           <use href="./svg/sprite.svg#diskette-large"></use>
@@ -527,7 +534,7 @@
           type="button"
           onclick="window['save-dialog'].close();"
           aria-controls="save-dialog"
-          class="dialog__button"
+          class="button dialog__button"
         >
           ок
         </button>
