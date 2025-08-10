@@ -4,7 +4,7 @@
   src: 
   url(./Inter-Variable.woff2) format('woff2-variations'),
   url(./Inter-Variable.woff2) format('woff2 supports variations');
-  font-weight: 410 785; /* 785 меня обязал указать автотест гита */
+  font-weight: 410 715; /* Автотест гита ругается, просит значения 400 785 */
   font-display: swap;
 }
 
